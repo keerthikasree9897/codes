@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Switch_case{
+    public static void main(String[]args){
+        Scanner Scan=new Scanner(System.in);
+        System.out.println("electricity");
+        int units1=sc.nextInt();
+        System.out.println("enter electricity units used 1:");
+        int units2=sc.nextInt();
+        System.out.println("enter electricity units used 2:");
+        int units3=sc.nextInt();
+        System.out.println("enter electricity units used 3:");
+        int total=unit1+unit2+unit3;
+        switch(total){
+            case 0: 
+                total=unit*2;
+                system.out.println(amount);
+                break;
+            case 1:
+        }       total=unit*3;
+                 system.out.println(amount);
+                break;
+            case 2:
+                total=unit*4;
+                system.out.println(amount);
+                break;
+            default:
+                 
+                 system.out.println("is mimimum");
+}
