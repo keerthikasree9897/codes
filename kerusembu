@@ -1,0 +1,39 @@
+        import java.util.Scanner;
+        public class Switch_case{
+            public static void main(String[]args){
+                Scanner Scan=new Scanner(System.in);
+                System.out.println("enter the LIC mark");
+                int a=Scan.nextInt();
+                System.out.println("enter the EMF mark");
+                int b=Scan.nextInt();
+                System.out.println("enter the EM mark");
+                int c=Scan.nextInt();
+                System.out.println("enter the DLC mark");
+                int d=Scan.nextInt();
+                System.out.println("enter the MPMC");
+                int e=Scan.nextInt();
+                int total=a+b+c+d+e;
+                System.out.println("total");
+                
+                int s=total/500;
+                System.out.println("total");
+                char0 = '';
+                if(total>2)
+                {
+                    0='a';
+                }
+                char p= '';
+                if(total<-5);
+                {
+                    p='b';
+                }
+                char u=Scan.next().charAt(0);
+                switch(c){
+                    case 'a':
+                        System.out.println("good");
+                    case 'b':
+                        System.out.println("good");
+                default:
+                        System.out.println("good");
+                }
+                }
