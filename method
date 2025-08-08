@@ -1,0 +1,13 @@
+import com.java;
+public class method{
+    int a1=a;
+    int b1=b;
+    int c1=c;
+    double total=(0.5*(a1+b1)*c1);
+} 
+    System.out.println(total);
+    
+    public static void main(String[]args){
+    a (50,40,50);
+    }    
+        
