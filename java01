@@ -1,0 +1,21 @@
+package com.java;
+public class Sample{
+    int d=90;
+    String a="hello;";
+    char c='a';
+    double d1=90.211d;
+    double d2=56743;
+    public static void area(Sample4 e){
+        Scanner Scan=new Scanner(System.in);
+        char c1=Scan.next().charAt(0);
+        if(c1=='k'){
+            
+            System.out.println(e.c);
+        }
+    
+        public static void main(String[]args){
+        Sample4 s=new Sample();
+        int b=10;
+        area(e);
+        }
+    
