@@ -1,0 +1,18 @@
+public class sample4 {
+    public static void main(String[]args){
+        String [] [] a={{"sadia","prasanna","gowsika","nandhu"},
+                      {"aarthi","sneka","varsha","sandhiya"},
+                      {"madhu","mahalakshmi","prathipa","veeramahali"},
+                      {"dhanuska","kayal","latha","mangai"}};
+                      int count=1;
+                             for (int i=0;i<a.length;i++) {
+                    for (int j=0;j<a.length;j++) {
+                        System.out.println(count+";"+a[i][j]);
+                        count++;
+                    }
+                    }             
+        }   
+    }
+           
+            
+                
