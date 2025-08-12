@@ -1,0 +1,14 @@
+class main {
+    public static void main(String[]args) {
+        int b[]={10,20,30,1,2};
+        int c=b[0];
+        int(int i=1;i<b.length.i++) {
+            if(b[i]<c) {
+                c=b[i];
+            }
+        }
+        System.out.println(c);
+    }
+    }
+    }
+            
