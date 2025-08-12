@@ -1,0 +1,18 @@
+public class sample4 {
+    public static void main(String[]args){
+       int c=0;
+       int [][]matrix={{10,6,7},
+                  {5,15,6},
+                  {9,18,30}};
+                  int avg=0;
+                  for(int[]row:matrix) {
+                      for(int num:row) {
+                          if(num%2==avg) {
+                              avg=num;
+                          }
+                      }
+                  }
+      System.out.println("average element:"+avg);
+    }
+}
+                  
